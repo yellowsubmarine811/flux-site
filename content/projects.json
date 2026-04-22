@@ -1,0 +1,164 @@
+[
+  {
+    "id": "meridian",
+    "number": "[ 01 ]",
+    "name": "MERIDIAN",
+    "tags": ["BRAND", "WEB"],
+    "year": "2025",
+    "heroImage": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200",
+    "intro": "Meridian is a forward-thinking architecture firm based in Los Angeles. We developed a complete brand identity and digital presence — from wordmark and visual system to a fully custom website that mirrors the precision and scale of their built work.",
+    "caseImages": [
+      {
+        "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200",
+        "alt": "Meridian textural study — red product composition",
+        "caption": "FIG. 01 // TEXTURAL STUDY"
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1200",
+        "alt": "Meridian form study — clean composition",
+        "caption": "FIG. 02 // FORM STUDY"
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200",
+        "alt": "Meridian studio environment",
+        "caption": "FIG. 03 // ENVIRONMENT"
+      }
+    ],
+    "nextProject": "kova-health"
+  },
+  {
+    "id": "kova-health",
+    "number": "[ 02 ]",
+    "name": "KOVA HEALTH",
+    "tags": ["BRAND", "UI"],
+    "year": "2025",
+    "heroImage": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1200",
+    "intro": "Kova Health is redefining preventive care with a data-first approach. We built a brand identity that balances clinical credibility with human warmth, paired with a product UI that makes complex health data feel approachable and actionable.",
+    "caseImages": [
+      {
+        "image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1200",
+        "alt": "Kova Health brand identity — logo and color system",
+        "caption": "FIG. 01 // BRAND IDENTITY"
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200",
+        "alt": "Kova Health dashboard UI and component library",
+        "caption": "FIG. 02 // DASHBOARD UI"
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200",
+        "alt": "Kova Health mobile app onboarding flow",
+        "caption": "FIG. 03 // MOBILE APP"
+      }
+    ],
+    "nextProject": "atlas-labs"
+  },
+  {
+    "id": "atlas-labs",
+    "number": "[ 03 ]",
+    "name": "ATLAS LABS",
+    "tags": ["WEB", "UI"],
+    "year": "2024",
+    "heroImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200",
+    "intro": "Atlas Labs builds developer tools for the next generation of AI infrastructure. We designed and built their marketing site and product UI — a system that communicates technical depth without sacrificing clarity or speed.",
+    "caseImages": [
+      {
+        "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200",
+        "alt": "Atlas Labs marketing site — hero and product overview",
+        "caption": "FIG. 01 // MARKETING SITE"
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200",
+        "alt": "Atlas Labs documentation layout and navigation",
+        "caption": "FIG. 02 // DOCUMENTATION"
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1200",
+        "alt": "Atlas Labs product dashboard and data visualization",
+        "caption": "FIG. 03 // DASHBOARD"
+      }
+    ],
+    "nextProject": "sonra"
+  },
+  {
+    "id": "sonra",
+    "number": "[ 04 ]",
+    "name": "SONRA",
+    "tags": ["BRAND", "UI", "UX"],
+    "year": "2024",
+    "heroImage": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=1200",
+    "intro": "Sonra is a fintech platform enabling real-time cross-border payments for emerging markets. We delivered a full brand identity alongside a product design system — balancing regulatory gravity with an interface that feels fast, trustworthy, and borderless.",
+    "caseImages": [
+      {
+        "image": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=1200",
+        "alt": "Sonra brand identity and visual language",
+        "caption": "FIG. 01 // BRAND IDENTITY"
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200",
+        "alt": "Sonra product UI — transaction flow and account overview",
+        "caption": "FIG. 02 // PRODUCT UI"
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1200",
+        "alt": "Sonra UX research artifacts and user journey mapping",
+        "caption": "FIG. 03 // UX RESEARCH"
+      }
+    ],
+    "nextProject": "lumen-studio"
+  },
+  {
+    "id": "lumen-studio",
+    "number": "[ 05 ]",
+    "name": "LUMEN STUDIO",
+    "tags": ["BRAND", "WEB"],
+    "year": "2023",
+    "heroImage": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200",
+    "intro": "Lumen Studio is an independent production company specializing in architectural and interior photography. We crafted a minimal brand identity and portfolio site that puts the work at the center — precise, quiet, and luminous.",
+    "caseImages": [
+      {
+        "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200",
+        "alt": "Lumen Studio logotype and brand identity system",
+        "caption": "FIG. 01 // LOGOTYPE"
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200",
+        "alt": "Lumen Studio portfolio site — grid layout and image presentation",
+        "caption": "FIG. 02 // PORTFOLIO SITE"
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=1200",
+        "alt": "Lumen Studio project pages and editorial typography",
+        "caption": "FIG. 03 // EDITORIAL"
+      }
+    ],
+    "nextProject": "aura"
+  },
+  {
+    "id": "aura",
+    "number": "[ 06 ]",
+    "name": "AURA",
+    "tags": ["MOTION", "AI"],
+    "year": "2023",
+    "heroImage": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1200",
+    "intro": "Aura is an AI-powered ambient display platform for physical spaces. We developed the brand identity, motion design language, and generative visual system — a living aesthetic that responds to data and environment in real time.",
+    "caseImages": [
+      {
+        "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1200",
+        "alt": "Aura brand identity and motion design system",
+        "caption": "FIG. 01 // BRAND & MOTION"
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=1200",
+        "alt": "Aura generative visual explorations and AI output samples",
+        "caption": "FIG. 02 // GENERATIVE SYSTEM"
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200",
+        "alt": "Aura installation photography and spatial context",
+        "caption": "FIG. 03 // INSTALLATION"
+      }
+    ],
+    "nextProject": "meridian"
+  }
+]

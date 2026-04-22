@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FLUX</title>
+  <meta name="description" content="Case study by FLUX, Los Angeles.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Mono:wght@400;600&family=Inter:wght@400;500&family=Space+Grotesk:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body class="case">
+
+  <!-- Full-width fixed header -->
+  <header class="case-header">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="../index.html">WORK</a>
+      <span aria-hidden="true">/</span>
+      <span class="current" id="breadcrumbName"></span>
+    </nav>
+    <a href="mailto:hello@flux.studio" class="btn-cta" aria-label="Book a call">BOOK A CALL ↗</a>
+  </header>
+
+  <!-- Left Panel: Fixed hero image -->
+  <aside class="panel-left panel-left--case">
+    <img
+      class="case-hero-image"
+      src=""
+      alt=""
+    />
+  </aside>
+
+  <!-- Right Panel: Scrollable case study content -->
+  <main class="panel-right panel-right--case">
+    <div class="case-content">
+      <section class="case-meta" id="caseMeta"></section>
+      <div class="case-images" id="caseImages"></div>
+    </div>
+  </main>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image zoom">
+    <button class="lightbox-close" id="lightboxClose">[ CLOSE ✕ ]</button>
+    <img id="lightboxImg" src="" alt="" />
+  </div>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
