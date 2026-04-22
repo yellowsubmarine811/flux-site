@@ -93,70 +93,81 @@ document.addEventListener('DOMContentLoaded', () => {
       el.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
     });
 
-    fetch('content/projects.json')
-      .then(r => r.json())
-      .then(projects => {
-        // Set default hero image to first project
-        if (projects[0] && heroImage) {
-          heroImage.src = projects[0].heroImage;
-          heroImage.alt = projects[0].name;
-        }
+    const FALLBACK_PROJECTS = [
+      { id: 'meridian',     number: '[ 01 ]', name: 'MERIDIAN',     tags: ['BRAND','WEB'],        year: '2025', heroImage: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200' },
+      { id: 'kova-health',  number: '[ 02 ]', name: 'KOVA HEALTH',  tags: ['BRAND','UI'],         year: '2025', heroImage: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1200' },
+      { id: 'atlas-labs',   number: '[ 03 ]', name: 'ATLAS LABS',   tags: ['WEB','UI'],           year: '2024', heroImage: 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200' },
+      { id: 'sonra',        number: '[ 04 ]', name: 'SONRA',        tags: ['BRAND','UI','UX'],    year: '2024', heroImage: 'https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=1200' },
+      { id: 'lumen-studio', number: '[ 05 ]', name: 'LUMEN STUDIO', tags: ['BRAND','WEB'],        year: '2023', heroImage: 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200' },
+      { id: 'aura',         number: '[ 06 ]', name: 'AURA',         tags: ['MOTION','AI'],        year: '2023', heroImage: 'https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1200' },
+    ];
 
-        // Render project rows
-        projects.forEach(p => {
-          const a = document.createElement('a');
-          a.className = 'project-row';
-          a.href = `work/project.html?id=${p.id}`;
-          a.dataset.image = p.heroImage;
-          a.dataset.alt = p.name;
-          a.style.opacity = '0';
-          a.style.transform = 'translateY(8px)';
-          a.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
-          a.innerHTML = `
-            <span class="project-number">${p.number}</span>
-            <span class="project-name">${p.name}</span>
-            <span class="project-tags">${p.tags.map(t => `<span class="tag">${t}</span>`).join('')}</span>
-            <span class="project-year">${p.year}</span>
-            <span class="project-arrow" aria-hidden="true">→</span>
-          `;
-          projectListEl.appendChild(a);
-        });
+    function renderProjects(projects) {
+      if (projects[0] && heroImage) {
+        heroImage.src = projects[0].heroImage;
+        heroImage.alt = projects[0].name;
+      }
 
-        // Hover image swap
-        let currentSrc = heroImage.src;
-        projectListEl.querySelectorAll('.project-row').forEach(row => {
-          row.addEventListener('mouseenter', () => {
-            const newSrc = row.dataset.image;
-            if (!newSrc || currentSrc === newSrc) return;
-            heroImage.classList.add('transitioning');
-            setTimeout(() => {
-              heroImage.src = newSrc;
-              heroImage.alt = row.dataset.alt;
-              currentSrc = newSrc;
-              heroImage.classList.remove('transitioning');
-            }, 250);
-          });
-        });
+      projects.forEach(p => {
+        const a = document.createElement('a');
+        a.className = 'project-row';
+        a.href = `work/project.html?id=${p.id}`;
+        a.dataset.image = p.heroImage;
+        a.dataset.alt = p.name;
+        a.style.opacity = '0';
+        a.style.transform = 'translateY(8px)';
+        a.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+        a.innerHTML = `
+          <span class="project-number">${p.number}</span>
+          <span class="project-name">${p.name}</span>
+          <span class="project-tags">${p.tags.map(t => `<span class="tag">${t}</span>`).join('')}</span>
+          <span class="project-year">${p.year}</span>
+          <span class="project-arrow" aria-hidden="true">→</span>
+        `;
+        projectListEl.appendChild(a);
+      });
 
-        // Staggered reveal animation
-        const rows = projectListEl.querySelectorAll('.project-row');
-        const sequence = [
-          { el: descriptor,  delay: 100 },
-          { el: btnCta,      delay: 200 },
-          { el: wordmark,    delay: 300 },
-          { el: listHeader,  delay: 400 },
-          { el: hero,        delay: 350 },
-          ...Array.from(rows).map((row, i) => ({ el: row, delay: 450 + i * 70 })),
-        ];
-
-        sequence.forEach(({ el, delay }) => {
-          if (!el) return;
+      let currentSrc = heroImage ? heroImage.src : '';
+      projectListEl.querySelectorAll('.project-row').forEach(row => {
+        row.addEventListener('mouseenter', () => {
+          const newSrc = row.dataset.image;
+          if (!newSrc || currentSrc === newSrc) return;
+          heroImage.classList.add('transitioning');
           setTimeout(() => {
-            el.style.opacity = '1';
-            el.style.transform = 'translateY(0)';
-          }, delay);
+            heroImage.src = newSrc;
+            heroImage.alt = row.dataset.alt;
+            currentSrc = newSrc;
+            heroImage.classList.remove('transitioning');
+          }, 250);
         });
       });
+
+      const rows = projectListEl.querySelectorAll('.project-row');
+      const sequence = [
+        { el: descriptor, delay: 100 },
+        { el: btnCta,     delay: 200 },
+        { el: wordmark,   delay: 300 },
+        { el: listHeader, delay: 400 },
+        { el: hero,       delay: 350 },
+        ...Array.from(rows).map((row, i) => ({ el: row, delay: 450 + i * 70 })),
+      ];
+
+      sequence.forEach(({ el, delay }) => {
+        if (!el) return;
+        setTimeout(() => {
+          el.style.opacity = '1';
+          el.style.transform = 'translateY(0)';
+        }, delay);
+      });
+    }
+
+    fetch('/content/projects.json')
+      .then(r => {
+        if (!r.ok) throw new Error(`HTTP ${r.status}`);
+        return r.json();
+      })
+      .then(projects => renderProjects(projects))
+      .catch(() => renderProjects(FALLBACK_PROJECTS));
   }
 
   /* ---- Case Study page ---- */
@@ -165,7 +176,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (id) {
       // Dynamic project page: fetch data, render, then animate
-      fetch('../content/projects.json')
+      fetch('/content/projects.json')
         .then(r => r.json())
         .then(projects => {
           const project     = projects.find(p => p.id === id);
