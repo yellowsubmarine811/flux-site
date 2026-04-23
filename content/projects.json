@@ -15,11 +15,6 @@
         "caption": "[ 01 ] LUMIREE × LEGO — Imagination Campaign"
       },
       {
-        "image": "/content/images/01-lumiree/hero.jpg",
-        "alt": "Lumiree Water bottle CGI — crystal clear water splash on teal background",
-        "caption": "[ HERO ] LUMIREE WATER — Product Hero"
-      },
-      {
         "image": "/content/images/01-lumiree/02.jpg",
         "alt": "Apple-inspired minimal CGI ad — fluffy white logo sculpture",
         "caption": "[ 02 ] LUMIREE × APPLE — Minimalist Series"
@@ -47,11 +42,6 @@
     "nextProject": "crystalline",
     "caseImages": [
       {
-        "image": "/content/images/02-spring-sounds/hero.png",
-        "alt": "Charity Gala event poster — dark geometric shapes with bold typography",
-        "caption": "[ HERO ] SPRING SOUNDS — Festival Key Visual"
-      },
-      {
         "image": "/content/images/02-spring-sounds/01.png",
         "alt": "Spring music festival poster — retro bird playing trumpet with geometric shapes",
         "caption": "[ 01 ] SPRING SOUNDS — Main Stage Poster"
@@ -78,11 +68,6 @@
     "intro": "A glass-style product photography series that reimagines everyday objects as luminous, translucent sculptures. Where the mundane becomes magical.",
     "nextProject": "zhong-feng",
     "caseImages": [
-      {
-        "image": "/content/images/03-crystalline/hero.jpg",
-        "alt": "Glass sunflower — translucent orange petals glowing with warm light",
-        "caption": "[ HERO ] CRYSTALLINE — Sunflower"
-      },
       {
         "image": "/content/images/03-crystalline/01.jpg",
         "alt": "Glass mushroom sculpture — delicate red-spotted cap with glowing stem",
@@ -116,11 +101,6 @@
     "nextProject": "retro-frame",
     "caseImages": [
       {
-        "image": "/content/images/04-zhong-feng/hero.jpg",
-        "alt": "Ukiyo-e inspired poster — The Great Wave with Chinese vessel and flying birds",
-        "caption": "[ HERO ] 中奉 — Ukiyo-e Series"
-      },
-      {
         "image": "/content/images/04-zhong-feng/01.jpg",
         "alt": "Qingming festival poster — ink wash pagoda with traditional Chinese typography",
         "caption": "[ 01 ] 中奉 — Qingming Festival"
@@ -153,11 +133,6 @@
     "nextProject": "ataros",
     "caseImages": [
       {
-        "image": "/content/images/05-retro-frame/hero.jpg",
-        "alt": "Banana Vibes hand-lettered logo on denim texture background",
-        "caption": "[ HERO ] RETRO FRAME — Banana Vibes Lettering"
-      },
-      {
         "image": "/content/images/05-retro-frame/01.jpg",
         "alt": "Retro Frame photography studio logo — vintage camera line illustration",
         "caption": "[ 01 ] RETRO FRAME — Photography Studio Logo"
@@ -184,11 +159,6 @@
     "intro": "A series of cinematic poster designs spanning sci-fi, thriller, and international arthouse — each piece a world unto itself, built for the big screen.",
     "nextProject": "lumiree-water",
     "caseImages": [
-      {
-        "image": "/content/images/06-ataros/hero.jpg",
-        "alt": "Ataro's sci-fi movie poster — lone figure against glowing orbital ring in desolate landscape",
-        "caption": "[ HERO ] ATARO'S FOR DESA — Feature Film"
-      },
       {
         "image": "/content/images/06-ataros/01.jpg",
         "alt": "Korean minimal movie poster — red chairs against exposed brick wall with Hangul text",
