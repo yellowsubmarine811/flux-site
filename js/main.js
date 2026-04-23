@@ -94,12 +94,12 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     const FALLBACK_PROJECTS = [
-      { id: 'meridian',     number: '[ 01 ]', name: 'MERIDIAN',     tags: ['BRAND','WEB'],        year: '2025', heroImage: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200' },
-      { id: 'kova-health',  number: '[ 02 ]', name: 'KOVA HEALTH',  tags: ['BRAND','UI'],         year: '2025', heroImage: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1200' },
-      { id: 'atlas-labs',   number: '[ 03 ]', name: 'ATLAS LABS',   tags: ['WEB','UI'],           year: '2024', heroImage: 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200' },
-      { id: 'sonra',        number: '[ 04 ]', name: 'SONRA',        tags: ['BRAND','UI','UX'],    year: '2024', heroImage: 'https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=1200' },
-      { id: 'lumen-studio', number: '[ 05 ]', name: 'LUMEN STUDIO', tags: ['BRAND','WEB'],        year: '2023', heroImage: 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200' },
-      { id: 'aura',         number: '[ 06 ]', name: 'AURA',         tags: ['MOTION','AI'],        year: '2023', heroImage: 'https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1200' },
+      { id: 'lumiree-water',  number: '[ 01 ]', name: 'LUMIREE WATER', tags: ['BRAND','COMMERCIAL','CGI'],       year: '2025', heroImage: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200' },
+      { id: 'spring-sounds',  number: '[ 02 ]', name: 'SPRING SOUNDS', tags: ['GRAPHIC','ILLUSTRATION','IDENTITY'], year: '2025', heroImage: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1200' },
+      { id: 'crystalline',    number: '[ 03 ]', name: 'CRYSTALLINE',   tags: ['PHOTOGRAPHY','CGI','PRODUCT'],   year: '2025', heroImage: 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200' },
+      { id: 'zhong-feng',     number: '[ 04 ]', name: '中奉',           tags: ['EDITORIAL','ASIAN','POSTER'],    year: '2024', heroImage: 'https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=1200' },
+      { id: 'retro-frame',    number: '[ 05 ]', name: 'RETRO FRAME',   tags: ['LOGO','BRAND','TYPE'],           year: '2024', heroImage: 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200' },
+      { id: 'ataros',         number: '[ 06 ]', name: "ATARO'S",       tags: ['MOVIE','POSTER','EDITORIAL'],    year: '2024', heroImage: 'https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1200' },
     ];
 
     function renderProjects(projects) {

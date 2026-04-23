@@ -1,164 +1,219 @@
 [
   {
-    "id": "meridian",
+    "id": "lumiree-water",
     "number": "[ 01 ]",
-    "name": "MERIDIAN",
-    "tags": ["BRAND", "WEB"],
+    "name": "LUMIREE WATER",
+    "tags": ["BRAND", "COMMERCIAL", "CGI"],
     "year": "2025",
-    "heroImage": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200",
-    "intro": "Meridian is a forward-thinking architecture firm based in Los Angeles. We developed a complete brand identity and digital presence — from wordmark and visual system to a fully custom website that mirrors the precision and scale of their built work.",
+    "heroImage": "/content/images/01-lumiree/hero.jpg",
+    "intro": "A surreal, hyperreal CGI campaign for Lumiree Water — a premium hydration brand built around the idea that purity is spectacle. Every drop, a universe.",
+    "nextProject": "spring-sounds",
     "caseImages": [
       {
-        "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200",
-        "alt": "Meridian textural study — red product composition",
-        "caption": "FIG. 01 // TEXTURAL STUDY"
+        "image": "/content/images/01-lumiree/01-lego.jpg",
+        "alt": "Lumiree x LEGO — surreal construction scene with colorful blocks exploding into clouds",
+        "caption": "[ 01 ] LUMIREE × LEGO — Imagination Campaign"
       },
       {
-        "image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1200",
-        "alt": "Meridian form study — clean composition",
-        "caption": "FIG. 02 // FORM STUDY"
+        "image": "/content/images/01-lumiree/hero.jpg",
+        "alt": "Lumiree Water bottle CGI — crystal clear water splash on teal background",
+        "caption": "[ HERO ] LUMIREE WATER — Product Hero"
       },
       {
-        "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200",
-        "alt": "Meridian studio environment",
-        "caption": "FIG. 03 // ENVIRONMENT"
+        "image": "/content/images/01-lumiree/02-apple.jpg",
+        "alt": "Apple-inspired minimal CGI ad — fluffy white logo sculpture",
+        "caption": "[ 02 ] LUMIREE × APPLE — Minimalist Series"
+      },
+      {
+        "image": "/content/images/01-lumiree/03-youth.jpg",
+        "alt": "Youth-focused colorful beverage can in retro pop art style",
+        "caption": "[ 03 ] LUMIREE YOUTH — Next Gen Campaign"
+      },
+      {
+        "image": "/content/images/01-lumiree/04-ikea.jpg",
+        "alt": "IKEA-inspired surreal lamp made of bread and toast stacks",
+        "caption": "[ 04 ] LUMIREE × IKEA — Everyday Surrealism"
       }
-    ],
-    "nextProject": "kova-health"
+    ]
   },
   {
-    "id": "kova-health",
+    "id": "spring-sounds",
     "number": "[ 02 ]",
-    "name": "KOVA HEALTH",
-    "tags": ["BRAND", "UI"],
+    "name": "SPRING SOUNDS",
+    "tags": ["GRAPHIC", "ILLUSTRATION", "IDENTITY"],
     "year": "2025",
-    "heroImage": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1200",
-    "intro": "Kova Health is redefining preventive care with a data-first approach. We built a brand identity that balances clinical credibility with human warmth, paired with a product UI that makes complex health data feel approachable and actionable.",
+    "heroImage": "/content/images/02-spring-sounds/hero.jpg",
+    "intro": "A complete visual identity for Spring Sounds — an annual music festival celebrating independent artists, nature, and community. Bold shapes, warm palettes.",
+    "nextProject": "crystalline",
     "caseImages": [
       {
-        "image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1200",
-        "alt": "Kova Health brand identity — logo and color system",
-        "caption": "FIG. 01 // BRAND IDENTITY"
+        "image": "/content/images/02-spring-sounds/hero.jpg",
+        "alt": "Charity Gala event poster — dark geometric shapes with bold typography",
+        "caption": "[ HERO ] SPRING SOUNDS — Festival Key Visual"
       },
       {
-        "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200",
-        "alt": "Kova Health dashboard UI and component library",
-        "caption": "FIG. 02 // DASHBOARD UI"
+        "image": "/content/images/02-spring-sounds/01-festival.jpg",
+        "alt": "Spring music festival poster — retro bird playing trumpet with geometric shapes",
+        "caption": "[ 01 ] SPRING SOUNDS — Main Stage Poster"
       },
       {
-        "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200",
-        "alt": "Kova Health mobile app onboarding flow",
-        "caption": "FIG. 03 // MOBILE APP"
+        "image": "/content/images/02-spring-sounds/02-eco.jpg",
+        "alt": "Eco sustainability illustration — figure surrounded by colorful abstract trees",
+        "caption": "[ 02 ] SPRING SOUNDS — Eco Initiative"
+      },
+      {
+        "image": "/content/images/02-spring-sounds/03-artist.jpg",
+        "alt": "Artist spotlight illustration — figure illuminated by neon botanical glow",
+        "caption": "[ 03 ] SPRING SOUNDS — Artist Spotlight Series"
       }
-    ],
-    "nextProject": "atlas-labs"
+    ]
   },
   {
-    "id": "atlas-labs",
+    "id": "crystalline",
     "number": "[ 03 ]",
-    "name": "ATLAS LABS",
-    "tags": ["WEB", "UI"],
-    "year": "2024",
-    "heroImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200",
-    "intro": "Atlas Labs builds developer tools for the next generation of AI infrastructure. We designed and built their marketing site and product UI — a system that communicates technical depth without sacrificing clarity or speed.",
+    "name": "CRYSTALLINE",
+    "tags": ["PHOTOGRAPHY", "CGI", "PRODUCT"],
+    "year": "2025",
+    "heroImage": "/content/images/03-crystalline/hero.jpg",
+    "intro": "A glass-style product photography series that reimagines everyday objects as luminous, translucent sculptures. Where the mundane becomes magical.",
+    "nextProject": "zhong-feng",
     "caseImages": [
       {
-        "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200",
-        "alt": "Atlas Labs marketing site — hero and product overview",
-        "caption": "FIG. 01 // MARKETING SITE"
+        "image": "/content/images/03-crystalline/hero.jpg",
+        "alt": "Glass sunflower — translucent orange petals glowing with warm light",
+        "caption": "[ HERO ] CRYSTALLINE — Sunflower"
       },
       {
-        "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200",
-        "alt": "Atlas Labs documentation layout and navigation",
-        "caption": "FIG. 02 // DOCUMENTATION"
+        "image": "/content/images/03-crystalline/01-mushroom.jpg",
+        "alt": "Glass mushroom sculpture — delicate red-spotted cap with glowing stem",
+        "caption": "[ 01 ] CRYSTALLINE — Mushroom"
       },
       {
-        "image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1200",
-        "alt": "Atlas Labs product dashboard and data visualization",
-        "caption": "FIG. 03 // DASHBOARD"
+        "image": "/content/images/03-crystalline/02-duck.jpg",
+        "alt": "Glass rubber duck — rainbow iridescent with floral patterns",
+        "caption": "[ 02 ] CRYSTALLINE — Rubber Duck"
+      },
+      {
+        "image": "/content/images/03-crystalline/03-flower-pot.jpg",
+        "alt": "Glass flower pot — glowing neon botanical arrangement in spherical vessel",
+        "caption": "[ 03 ] CRYSTALLINE — Flower Pot"
+      },
+      {
+        "image": "/content/images/03-crystalline/04-banana.jpg",
+        "alt": "Glass banana — golden translucent fruit glowing on neutral background",
+        "caption": "[ 04 ] CRYSTALLINE — Banana"
       }
-    ],
-    "nextProject": "sonra"
+    ]
   },
   {
-    "id": "sonra",
+    "id": "zhong-feng",
     "number": "[ 04 ]",
-    "name": "SONRA",
-    "tags": ["BRAND", "UI", "UX"],
+    "name": "中奉",
+    "tags": ["EDITORIAL", "ASIAN", "POSTER"],
     "year": "2024",
-    "heroImage": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=1200",
-    "intro": "Sonra is a fintech platform enabling real-time cross-border payments for emerging markets. We delivered a full brand identity alongside a product design system — balancing regulatory gravity with an interface that feels fast, trustworthy, and borderless.",
+    "heroImage": "/content/images/04-zhong-feng/hero.jpg",
+    "intro": "A cultural exhibition identity drawing from centuries of East Asian visual heritage — ink wash, ukiyo-e, Ming Dynasty craft, and contemporary Chinese editorial design.",
+    "nextProject": "retro-frame",
     "caseImages": [
       {
-        "image": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=1200",
-        "alt": "Sonra brand identity and visual language",
-        "caption": "FIG. 01 // BRAND IDENTITY"
+        "image": "/content/images/04-zhong-feng/hero.jpg",
+        "alt": "Ukiyo-e inspired poster — The Great Wave with Chinese vessel and flying birds",
+        "caption": "[ HERO ] 中奉 — Ukiyo-e Series"
       },
       {
-        "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200",
-        "alt": "Sonra product UI — transaction flow and account overview",
-        "caption": "FIG. 02 // PRODUCT UI"
+        "image": "/content/images/04-zhong-feng/01-qingming.jpg",
+        "alt": "Qingming festival poster — ink wash pagoda with traditional Chinese typography",
+        "caption": "[ 01 ] 中奉 — Qingming Festival"
       },
       {
-        "image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1200",
-        "alt": "Sonra UX research artifacts and user journey mapping",
-        "caption": "FIG. 03 // UX RESEARCH"
+        "image": "/content/images/04-zhong-feng/02-lantern.jpg",
+        "alt": "Lantern exhibition poster — floral botanical art displayed in subway station",
+        "caption": "[ 02 ] 中奉 — Lantern Exhibition"
+      },
+      {
+        "image": "/content/images/04-zhong-feng/03-peony.jpg",
+        "alt": "Peony poster — dark moody botanical with glowing orange flower and lone figure",
+        "caption": "[ 03 ] 中奉 — Peony Night"
+      },
+      {
+        "image": "/content/images/04-zhong-feng/04-ming.jpg",
+        "alt": "Ming Dynasty furniture poster — elegant chair on cream background with Chinese characters",
+        "caption": "[ 04 ] 中奉 — Ming Dynasty Collection"
       }
-    ],
-    "nextProject": "lumen-studio"
+    ]
   },
   {
-    "id": "lumen-studio",
+    "id": "retro-frame",
     "number": "[ 05 ]",
-    "name": "LUMEN STUDIO",
-    "tags": ["BRAND", "WEB"],
-    "year": "2023",
-    "heroImage": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200",
-    "intro": "Lumen Studio is an independent production company specializing in architectural and interior photography. We crafted a minimal brand identity and portfolio site that puts the work at the center — precise, quiet, and luminous.",
+    "name": "RETRO FRAME",
+    "tags": ["LOGO", "BRAND", "TYPE"],
+    "year": "2024",
+    "heroImage": "/content/images/05-retro-frame/hero.jpg",
+    "intro": "A brand identity system spanning logo design, hand lettering, and typographic exploration — from playful mascots to bold retro wordmarks.",
+    "nextProject": "ataros",
     "caseImages": [
       {
-        "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200",
-        "alt": "Lumen Studio logotype and brand identity system",
-        "caption": "FIG. 01 // LOGOTYPE"
+        "image": "/content/images/05-retro-frame/hero.jpg",
+        "alt": "Banana Vibes hand-lettered logo on denim texture background",
+        "caption": "[ HERO ] RETRO FRAME — Banana Vibes Lettering"
       },
       {
-        "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200",
-        "alt": "Lumen Studio portfolio site — grid layout and image presentation",
-        "caption": "FIG. 02 // PORTFOLIO SITE"
+        "image": "/content/images/05-retro-frame/01-camera.jpg",
+        "alt": "Retro Frame photography studio logo — vintage camera line illustration",
+        "caption": "[ 01 ] RETRO FRAME — Photography Studio Logo"
       },
       {
-        "image": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=1200",
-        "alt": "Lumen Studio project pages and editorial typography",
-        "caption": "FIG. 03 // EDITORIAL"
+        "image": "/content/images/05-retro-frame/02-retrovision.jpg",
+        "alt": "RetroVision TV channel logo — vintage television set in teal and rust",
+        "caption": "[ 02 ] RETROVISION — Channel Identity"
+      },
+      {
+        "image": "/content/images/05-retro-frame/03-hedgehog.jpg",
+        "alt": "Mono hedgehog mascot logo — minimal line illustration walking with coffee cup",
+        "caption": "[ 03 ] RETRO FRAME — Hedgehog Mascot"
+      },
+      {
+        "image": "/content/images/05-retro-frame/04-together.jpg",
+        "alt": "Together We Shine hand lettering poster — colorful retro typography",
+        "caption": "[ 04 ] TOGETHER WE SHINE — Lettering Poster"
       }
-    ],
-    "nextProject": "aura"
+    ]
   },
   {
-    "id": "aura",
+    "id": "ataros",
     "number": "[ 06 ]",
-    "name": "AURA",
-    "tags": ["MOTION", "AI"],
-    "year": "2023",
-    "heroImage": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1200",
-    "intro": "Aura is an AI-powered ambient display platform for physical spaces. We developed the brand identity, motion design language, and generative visual system — a living aesthetic that responds to data and environment in real time.",
+    "name": "ATARO'S",
+    "tags": ["MOVIE", "POSTER", "EDITORIAL"],
+    "year": "2024",
+    "heroImage": "/content/images/06-ataros/hero.jpg",
+    "intro": "A series of cinematic poster designs spanning sci-fi, thriller, and international arthouse — each piece a world unto itself, built for the big screen.",
+    "nextProject": "lumiree-water",
     "caseImages": [
       {
-        "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1200",
-        "alt": "Aura brand identity and motion design system",
-        "caption": "FIG. 01 // BRAND & MOTION"
+        "image": "/content/images/06-ataros/hero.jpg",
+        "alt": "Ataro's sci-fi movie poster — lone figure against glowing orbital ring in desolate landscape",
+        "caption": "[ HERO ] ATARO'S FOR DESA — Feature Film"
       },
       {
-        "image": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=1200",
-        "alt": "Aura generative visual explorations and AI output samples",
-        "caption": "FIG. 02 // GENERATIVE SYSTEM"
+        "image": "/content/images/06-ataros/01-korean.jpg",
+        "alt": "Korean minimal movie poster — red chairs against exposed brick wall with Hangul text",
+        "caption": "[ 01 ] 엄마리 — Korean Arthouse"
       },
       {
-        "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200",
-        "alt": "Aura installation photography and spatial context",
-        "caption": "FIG. 03 // INSTALLATION"
+        "image": "/content/images/06-ataros/02-el-origen.jpg",
+        "alt": "El Origen thriller poster — red soundwave circle on dark background",
+        "caption": "[ 02 ] EL ORIGEN — Spanish Thriller"
+      },
+      {
+        "image": "/content/images/06-ataros/03-ensemble.jpg",
+        "alt": "Chinese ensemble film poster — ornate cathedral setting with period cast",
+        "caption": "[ 03 ] 欢宗 — Chinese Period Drama"
+      },
+      {
+        "image": "/content/images/06-ataros/04-spacecraft.jpg",
+        "alt": "Space thriller poster — rocket in cavern bathed in dramatic spotlight",
+        "caption": "[ 04 ] 朝权册 — Space Epic"
       }
-    ],
-    "nextProject": "meridian"
+    ]
   }
 ]
