@@ -10,7 +10,7 @@
     "nextProject": "spring-sounds",
     "caseImages": [
       {
-        "image": "/content/images/01-lumiree/01-lego.jpg",
+        "image": "/content/images/01-lumiree/01.jpg",
         "alt": "Lumiree x LEGO — surreal construction scene with colorful blocks exploding into clouds",
         "caption": "[ 01 ] LUMIREE × LEGO — Imagination Campaign"
       },
@@ -20,17 +20,17 @@
         "caption": "[ HERO ] LUMIREE WATER — Product Hero"
       },
       {
-        "image": "/content/images/01-lumiree/02-apple.jpg",
+        "image": "/content/images/01-lumiree/02.jpg",
         "alt": "Apple-inspired minimal CGI ad — fluffy white logo sculpture",
         "caption": "[ 02 ] LUMIREE × APPLE — Minimalist Series"
       },
       {
-        "image": "/content/images/01-lumiree/03-youth.jpg",
+        "image": "/content/images/01-lumiree/03.jpg",
         "alt": "Youth-focused colorful beverage can in retro pop art style",
         "caption": "[ 03 ] LUMIREE YOUTH — Next Gen Campaign"
       },
       {
-        "image": "/content/images/01-lumiree/04-ikea.jpg",
+        "image": "/content/images/01-lumiree/04.jpg",
         "alt": "IKEA-inspired surreal lamp made of bread and toast stacks",
         "caption": "[ 04 ] LUMIREE × IKEA — Everyday Surrealism"
       }
@@ -42,27 +42,27 @@
     "name": "SPRING SOUNDS",
     "tags": ["GRAPHIC", "ILLUSTRATION", "IDENTITY"],
     "year": "2025",
-    "heroImage": "/content/images/02-spring-sounds/hero.jpg",
+    "heroImage": "/content/images/02-spring-sounds/hero.png",
     "intro": "A complete visual identity for Spring Sounds — an annual music festival celebrating independent artists, nature, and community. Bold shapes, warm palettes.",
     "nextProject": "crystalline",
     "caseImages": [
       {
-        "image": "/content/images/02-spring-sounds/hero.jpg",
+        "image": "/content/images/02-spring-sounds/hero.png",
         "alt": "Charity Gala event poster — dark geometric shapes with bold typography",
         "caption": "[ HERO ] SPRING SOUNDS — Festival Key Visual"
       },
       {
-        "image": "/content/images/02-spring-sounds/01-festival.jpg",
+        "image": "/content/images/02-spring-sounds/01.png",
         "alt": "Spring music festival poster — retro bird playing trumpet with geometric shapes",
         "caption": "[ 01 ] SPRING SOUNDS — Main Stage Poster"
       },
       {
-        "image": "/content/images/02-spring-sounds/02-eco.jpg",
+        "image": "/content/images/02-spring-sounds/02.png",
         "alt": "Eco sustainability illustration — figure surrounded by colorful abstract trees",
         "caption": "[ 02 ] SPRING SOUNDS — Eco Initiative"
       },
       {
-        "image": "/content/images/02-spring-sounds/03-artist.jpg",
+        "image": "/content/images/02-spring-sounds/03.png",
         "alt": "Artist spotlight illustration — figure illuminated by neon botanical glow",
         "caption": "[ 03 ] SPRING SOUNDS — Artist Spotlight Series"
       }
@@ -84,22 +84,22 @@
         "caption": "[ HERO ] CRYSTALLINE — Sunflower"
       },
       {
-        "image": "/content/images/03-crystalline/01-mushroom.jpg",
+        "image": "/content/images/03-crystalline/01.jpg",
         "alt": "Glass mushroom sculpture — delicate red-spotted cap with glowing stem",
         "caption": "[ 01 ] CRYSTALLINE — Mushroom"
       },
       {
-        "image": "/content/images/03-crystalline/02-duck.jpg",
+        "image": "/content/images/03-crystalline/02.jpg",
         "alt": "Glass rubber duck — rainbow iridescent with floral patterns",
         "caption": "[ 02 ] CRYSTALLINE — Rubber Duck"
       },
       {
-        "image": "/content/images/03-crystalline/03-flower-pot.jpg",
+        "image": "/content/images/03-crystalline/03.jpg",
         "alt": "Glass flower pot — glowing neon botanical arrangement in spherical vessel",
         "caption": "[ 03 ] CRYSTALLINE — Flower Pot"
       },
       {
-        "image": "/content/images/03-crystalline/04-banana.jpg",
+        "image": "/content/images/03-crystalline/04.jpg",
         "alt": "Glass banana — golden translucent fruit glowing on neutral background",
         "caption": "[ 04 ] CRYSTALLINE — Banana"
       }
@@ -121,22 +121,22 @@
         "caption": "[ HERO ] 中奉 — Ukiyo-e Series"
       },
       {
-        "image": "/content/images/04-zhong-feng/01-qingming.jpg",
+        "image": "/content/images/04-zhong-feng/01.jpg",
         "alt": "Qingming festival poster — ink wash pagoda with traditional Chinese typography",
         "caption": "[ 01 ] 中奉 — Qingming Festival"
       },
       {
-        "image": "/content/images/04-zhong-feng/02-lantern.jpg",
+        "image": "/content/images/04-zhong-feng/02.jpg",
         "alt": "Lantern exhibition poster — floral botanical art displayed in subway station",
         "caption": "[ 02 ] 中奉 — Lantern Exhibition"
       },
       {
-        "image": "/content/images/04-zhong-feng/03-peony.jpg",
+        "image": "/content/images/04-zhong-feng/03.jpg",
         "alt": "Peony poster — dark moody botanical with glowing orange flower and lone figure",
         "caption": "[ 03 ] 中奉 — Peony Night"
       },
       {
-        "image": "/content/images/04-zhong-feng/04-ming.jpg",
+        "image": "/content/images/04-zhong-feng/04.jpg",
         "alt": "Ming Dynasty furniture poster — elegant chair on cream background with Chinese characters",
         "caption": "[ 04 ] 中奉 — Ming Dynasty Collection"
       }
@@ -158,24 +158,19 @@
         "caption": "[ HERO ] RETRO FRAME — Banana Vibes Lettering"
       },
       {
-        "image": "/content/images/05-retro-frame/01-camera.jpg",
+        "image": "/content/images/05-retro-frame/01.jpg",
         "alt": "Retro Frame photography studio logo — vintage camera line illustration",
         "caption": "[ 01 ] RETRO FRAME — Photography Studio Logo"
       },
       {
-        "image": "/content/images/05-retro-frame/02-retrovision.jpg",
+        "image": "/content/images/05-retro-frame/02.jpg",
         "alt": "RetroVision TV channel logo — vintage television set in teal and rust",
         "caption": "[ 02 ] RETROVISION — Channel Identity"
       },
       {
-        "image": "/content/images/05-retro-frame/03-hedgehog.jpg",
+        "image": "/content/images/05-retro-frame/03.jpg",
         "alt": "Mono hedgehog mascot logo — minimal line illustration walking with coffee cup",
         "caption": "[ 03 ] RETRO FRAME — Hedgehog Mascot"
-      },
-      {
-        "image": "/content/images/05-retro-frame/04-together.jpg",
-        "alt": "Together We Shine hand lettering poster — colorful retro typography",
-        "caption": "[ 04 ] TOGETHER WE SHINE — Lettering Poster"
       }
     ]
   },
@@ -195,22 +190,22 @@
         "caption": "[ HERO ] ATARO'S FOR DESA — Feature Film"
       },
       {
-        "image": "/content/images/06-ataros/01-korean.jpg",
+        "image": "/content/images/06-ataros/01.jpg",
         "alt": "Korean minimal movie poster — red chairs against exposed brick wall with Hangul text",
         "caption": "[ 01 ] 엄마리 — Korean Arthouse"
       },
       {
-        "image": "/content/images/06-ataros/02-el-origen.jpg",
+        "image": "/content/images/06-ataros/02.jpg",
         "alt": "El Origen thriller poster — red soundwave circle on dark background",
         "caption": "[ 02 ] EL ORIGEN — Spanish Thriller"
       },
       {
-        "image": "/content/images/06-ataros/03-ensemble.jpg",
+        "image": "/content/images/06-ataros/03.jpg",
         "alt": "Chinese ensemble film poster — ornate cathedral setting with period cast",
         "caption": "[ 03 ] 欢宗 — Chinese Period Drama"
       },
       {
-        "image": "/content/images/06-ataros/04-spacecraft.jpg",
+        "image": "/content/images/06-ataros/04.jpg",
         "alt": "Space thriller poster — rocket in cavern bathed in dramatic spotlight",
         "caption": "[ 04 ] 朝权册 — Space Epic"
       }
