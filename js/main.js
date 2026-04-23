@@ -101,10 +101,14 @@ document.addEventListener('DOMContentLoaded', () => {
     ];
 
     function renderProjects(projects) {
+      const overlay = document.getElementById('heroOverlay');
+
       projects.forEach(p => {
         const a = document.createElement('a');
         a.className = 'project-row';
         a.href = `work/project.html?id=${p.id}`;
+        a.dataset.image = p.heroImage;
+        a.dataset.alt = p.name;
         a.style.opacity = '0';
         a.style.transform = 'translateY(8px)';
         a.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
@@ -117,6 +121,20 @@ document.addEventListener('DOMContentLoaded', () => {
         `;
         projectListEl.appendChild(a);
       });
+
+      // Hover: fade project image over video, fade out on leave
+      if (overlay) {
+        projectListEl.querySelectorAll('.project-row').forEach(row => {
+          row.addEventListener('mouseenter', () => {
+            overlay.src = row.dataset.image;
+            overlay.alt = row.dataset.alt;
+            overlay.classList.add('active');
+          });
+          row.addEventListener('mouseleave', () => {
+            overlay.classList.remove('active');
+          });
+        });
+      }
 
       const rows = projectListEl.querySelectorAll('.project-row');
       const sequence = [
