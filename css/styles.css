@@ -504,7 +504,7 @@ img {
 .case-figure img {
   width: 100%;
   display: block;
-  aspect-ratio: 16/10;
+  aspect-ratio: 1/1;
   object-fit: cover;
   cursor: zoom-in;
   transition: opacity 0.15s ease;
