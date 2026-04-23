@@ -78,42 +78,33 @@ document.addEventListener('DOMContentLoaded', () => {
 
   /* ---- Home page ---- */
   if (document.body.classList.contains('home')) {
-    const heroImage     = document.getElementById('heroImage');
     const projectListEl = document.getElementById('projectList');
     const descriptor    = document.querySelector('.descriptor');
     const btnCta        = document.querySelector('.btn-cta');
     const wordmark      = document.querySelector('.wordmark');
     const listHeader    = document.querySelector('.list-header');
-    const hero          = document.querySelector('.hero-image');
 
     // Pre-hide static elements for stagger animation
-    [descriptor, btnCta, wordmark, listHeader, hero].filter(Boolean).forEach(el => {
+    [descriptor, btnCta, wordmark, listHeader].filter(Boolean).forEach(el => {
       el.style.opacity = '0';
       el.style.transform = 'translateY(8px)';
       el.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
     });
 
     const FALLBACK_PROJECTS = [
-      { id: 'lumiree-water',  number: '[ 01 ]', name: 'LUMIREE WATER', tags: ['BRAND','COMMERCIAL','CGI'],       year: '2025', heroImage: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200' },
-      { id: 'spring-sounds',  number: '[ 02 ]', name: 'SPRING SOUNDS', tags: ['GRAPHIC','ILLUSTRATION','IDENTITY'], year: '2025', heroImage: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1200' },
-      { id: 'crystalline',    number: '[ 03 ]', name: 'CRYSTALLINE',   tags: ['PHOTOGRAPHY','CGI','PRODUCT'],   year: '2025', heroImage: 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200' },
-      { id: 'zhong-feng',     number: '[ 04 ]', name: '中奉',           tags: ['EDITORIAL','ASIAN','POSTER'],    year: '2024', heroImage: 'https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=1200' },
-      { id: 'retro-frame',    number: '[ 05 ]', name: 'RETRO FRAME',   tags: ['LOGO','BRAND','TYPE'],           year: '2024', heroImage: 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200' },
-      { id: 'ataros',         number: '[ 06 ]', name: "ATARO'S",       tags: ['MOVIE','POSTER','EDITORIAL'],    year: '2024', heroImage: 'https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1200' },
+      { id: 'lumiree-water',  number: '[ 01 ]', name: 'LUMIREE WATER', tags: ['BRAND','COMMERCIAL','CGI'],          year: '2025' },
+      { id: 'spring-sounds',  number: '[ 02 ]', name: 'SPRING SOUNDS', tags: ['GRAPHIC','ILLUSTRATION','IDENTITY'], year: '2025' },
+      { id: 'crystalline',    number: '[ 03 ]', name: 'CRYSTALLINE',   tags: ['PHOTOGRAPHY','CGI','PRODUCT'],       year: '2025' },
+      { id: 'zhong-feng',     number: '[ 04 ]', name: '中奉',           tags: ['EDITORIAL','ASIAN','POSTER'],        year: '2024' },
+      { id: 'retro-frame',    number: '[ 05 ]', name: 'RETRO FRAME',   tags: ['LOGO','BRAND','TYPE'],               year: '2024' },
+      { id: 'ataros',         number: '[ 06 ]', name: "ATARO'S",       tags: ['MOVIE','POSTER','EDITORIAL'],        year: '2024' },
     ];
 
     function renderProjects(projects) {
-      if (projects[0] && heroImage) {
-        heroImage.src = projects[0].heroImage;
-        heroImage.alt = projects[0].name;
-      }
-
       projects.forEach(p => {
         const a = document.createElement('a');
         a.className = 'project-row';
         a.href = `work/project.html?id=${p.id}`;
-        a.dataset.image = p.heroImage;
-        a.dataset.alt = p.name;
         a.style.opacity = '0';
         a.style.transform = 'translateY(8px)';
         a.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
@@ -127,28 +118,12 @@ document.addEventListener('DOMContentLoaded', () => {
         projectListEl.appendChild(a);
       });
 
-      let currentSrc = heroImage ? heroImage.src : '';
-      projectListEl.querySelectorAll('.project-row').forEach(row => {
-        row.addEventListener('mouseenter', () => {
-          const newSrc = row.dataset.image;
-          if (!newSrc || currentSrc === newSrc) return;
-          heroImage.classList.add('transitioning');
-          setTimeout(() => {
-            heroImage.src = newSrc;
-            heroImage.alt = row.dataset.alt;
-            currentSrc = newSrc;
-            heroImage.classList.remove('transitioning');
-          }, 250);
-        });
-      });
-
       const rows = projectListEl.querySelectorAll('.project-row');
       const sequence = [
         { el: descriptor, delay: 100 },
         { el: btnCta,     delay: 200 },
         { el: wordmark,   delay: 300 },
         { el: listHeader, delay: 400 },
-        { el: hero,       delay: 350 },
         ...Array.from(rows).map((row, i) => ({ el: row, delay: 450 + i * 70 })),
       ];
 

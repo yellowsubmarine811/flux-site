@@ -325,21 +325,17 @@ img {
 }
 
 /* ---- Hero Image (Right Panel) ---- */
-.hero-image-container {
+.hero-video-container {
   width: 100%;
   height: 100%;
   overflow: hidden;
 }
 
-.hero-image {
+.hero-video {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: opacity 0.25s ease;
-}
-
-.hero-image.transitioning {
-  opacity: 0;
+  display: block;
 }
 
 /* ============================================================
