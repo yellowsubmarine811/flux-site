@@ -45,8 +45,8 @@
   --text-base: 15px;                       /* project-name */
   --text-md: 16px;                         /* project-arrow, lightbox-close */
   --text-xl: 48px;                         /* next-name display */
-  --text-wordmark: 372px;                  /* FLUX hero — desktop */
-  --text-wordmark-mobile: 253px;           /* FLUX hero — mobile */
+  --text-wordmark: 298px;                  /* FLUX hero — desktop (80% of 372) */
+  --text-wordmark-mobile: 202px;           /* FLUX hero — mobile (80% of 253) */
   --text-case-title: clamp(64px, 8vw, 106px);          /* case study h1 — desktop */
   --text-case-title-mobile: clamp(53px, 16vw, 85px);   /* case study h1 — mobile */
 
@@ -60,7 +60,7 @@
   --leading-snug: 1.6;          /* descriptor */
   --leading-relaxed: 1.7;       /* panel footer */
   --leading-loose: 1.8;         /* case-intro body */
-  --leading-wordmark: 225.28px; /* FLUX hero — locked to font-size ratio */
+  --leading-wordmark: 180px;    /* FLUX hero — locked to font-size ratio (80% of 225.28) */
 
   /* Letter spacing */
   --tracking-body: 0.02em;      /* case-intro prose */
@@ -69,7 +69,7 @@
   --tracking-caps: 0.1em;       /* column headers, section labels, lightbox close */
   --tracking-tag: 0.12em;       /* tag pills */
   --tracking-display: 0.01em;   /* next-name heading */
-  --tracking-wordmark: -14.08px;/* FLUX hero negative kern */
+  --tracking-wordmark: -11px;   /* FLUX hero negative kern (80% of -14.08) */
 }
 
 /* ---- Reset ---- */
@@ -177,6 +177,7 @@ img {
 
 /* ---- Wordmark ---- */
 .wordmark-container {
+  position: relative;
   flex: 1;
   display: flex;
   align-items: flex-end;
@@ -189,7 +190,22 @@ img {
   background-position: 0 0;
 }
 
+.wordmark-bg-overlay {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 0.35s ease;
+}
+
+.wordmark-bg-overlay.active {
+  opacity: 1;
+}
+
 .wordmark {
+  position: relative;
+  z-index: 1;
   font-family: var(--font-wordmark);
   font-size: var(--text-wordmark);
   font-weight: var(--weight-bold);

@@ -122,19 +122,26 @@ document.addEventListener('DOMContentLoaded', () => {
         projectListEl.appendChild(a);
       });
 
-      // Hover: fade project image over video, fade out on leave
-      if (overlay) {
-        projectListEl.querySelectorAll('.project-row').forEach(row => {
-          row.addEventListener('mouseenter', () => {
+      // Hover: fade project image over video + swap wordmark background
+      const wordmarkOverlay = document.getElementById('wordmarkBgOverlay');
+
+      projectListEl.querySelectorAll('.project-row').forEach(row => {
+        row.addEventListener('mouseenter', () => {
+          if (overlay) {
             overlay.src = row.dataset.image;
             overlay.alt = row.dataset.alt;
             overlay.classList.add('active');
-          });
-          row.addEventListener('mouseleave', () => {
-            overlay.classList.remove('active');
-          });
+          }
+          if (wordmarkOverlay) {
+            wordmarkOverlay.style.backgroundImage = `url('${row.dataset.image}')`;
+            wordmarkOverlay.classList.add('active');
+          }
         });
-      }
+        row.addEventListener('mouseleave', () => {
+          if (overlay) overlay.classList.remove('active');
+          if (wordmarkOverlay) wordmarkOverlay.classList.remove('active');
+        });
+      });
 
       const rows = projectListEl.querySelectorAll('.project-row');
       const sequence = [
