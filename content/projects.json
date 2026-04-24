@@ -6,6 +6,7 @@
     "tags": ["BRAND", "COMMERCIAL", "CGI"],
     "year": "2025",
     "heroImage": "/content/images/01-lumiree/hero.jpg",
+    "bgImage": "/content/images/01-lumiree/bg.jpg",
     "intro": "A surreal, hyperreal CGI campaign for Lumiree Water — a premium hydration brand built around the idea that purity is spectacle. Every drop, a universe.",
     "nextProject": "spring-sounds",
     "caseImages": [
@@ -38,6 +39,7 @@
     "tags": ["GRAPHIC", "ILLUSTRATION", "IDENTITY"],
     "year": "2025",
     "heroImage": "/content/images/02-spring-sounds/hero.png",
+    "bgImage": "/content/images/02-spring-sounds/bg.jpg",
     "intro": "A complete visual identity for Spring Sounds — an annual music festival celebrating independent artists, nature, and community. Bold shapes, warm palettes.",
     "nextProject": "crystalline",
     "caseImages": [
@@ -65,6 +67,7 @@
     "tags": ["PHOTOGRAPHY", "CGI", "PRODUCT"],
     "year": "2025",
     "heroImage": "/content/images/03-crystalline/hero.jpg",
+    "bgImage": "/content/images/03-crystalline/bg.jpg",
     "intro": "A glass-style product photography series that reimagines everyday objects as luminous, translucent sculptures. Where the mundane becomes magical.",
     "nextProject": "zhong-feng",
     "caseImages": [
@@ -97,6 +100,7 @@
     "tags": ["EDITORIAL", "ASIAN", "POSTER"],
     "year": "2024",
     "heroImage": "/content/images/04-zhong-feng/hero.jpg",
+    "bgImage": "/content/images/04-zhong-feng/bg.jpg",
     "intro": "A cultural exhibition identity drawing from centuries of East Asian visual heritage — ink wash, ukiyo-e, Ming Dynasty craft, and contemporary Chinese editorial design.",
     "nextProject": "retro-frame",
     "caseImages": [
@@ -129,6 +133,7 @@
     "tags": ["LOGO", "BRAND", "TYPE"],
     "year": "2024",
     "heroImage": "/content/images/05-retro-frame/hero.jpg",
+    "bgImage": "/content/images/05-retro-frame/bg.jpg",
     "intro": "A brand identity system spanning logo design, hand lettering, and typographic exploration — from playful mascots to bold retro wordmarks.",
     "nextProject": "ataros",
     "caseImages": [
@@ -156,6 +161,7 @@
     "tags": ["MOVIE", "POSTER", "EDITORIAL"],
     "year": "2024",
     "heroImage": "/content/images/06-ataros/hero.jpg",
+    "bgImage": "/content/images/06-ataros/bg.jpg",
     "intro": "A series of cinematic poster designs spanning sci-fi, thriller, and international arthouse — each piece a world unto itself, built for the big screen.",
     "nextProject": "lumiree-water",
     "caseImages": [

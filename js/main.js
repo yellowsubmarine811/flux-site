@@ -109,6 +109,7 @@ document.addEventListener('DOMContentLoaded', () => {
         a.href = `work/project.html?id=${p.id}`;
         a.dataset.image = p.heroImage;
         a.dataset.alt = p.name;
+        if (p.bgImage) a.dataset.bgImage = p.bgImage;
         a.style.opacity = '0';
         a.style.transform = 'translateY(8px)';
         a.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
@@ -132,8 +133,8 @@ document.addEventListener('DOMContentLoaded', () => {
             overlay.alt = row.dataset.alt;
             overlay.classList.add('active');
           }
-          if (wordmarkOverlay) {
-            wordmarkOverlay.style.backgroundImage = `url('${row.dataset.image}')`;
+          if (wordmarkOverlay && row.dataset.bgImage) {
+            wordmarkOverlay.style.backgroundImage = `url('${row.dataset.bgImage}')`;
             wordmarkOverlay.classList.add('active');
           }
         });
